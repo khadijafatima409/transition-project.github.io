@@ -1,0 +1,964 @@
+
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', ;
+
+}
+#header
+{
+    height:650px;
+    width:99.7%;
+    border:1px solid ;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(31, 30, 92, 0.7)),url("business-bg-5.jpg");
+    background-size:100% 100%;
+    position: relative;
+
+}
+.nav
+{
+    height:100px;
+    width:99.7%;
+    /* background: red; */
+    padding: 1px;
+    position:sticky;
+    z-index: 2;
+}
+.nav img
+{
+    height:50px;
+    width:130px;
+    position: absolute;
+    left:10%;
+    top:25%;
+}
+.nav ul li
+{
+    float:left;
+    margin-left:60px;
+    list-style: none;
+    transition-duration: 3s;
+    
+}
+.nav ul li:hover
+{
+    transition-duration: 3s;
+    transform: scale(1.5);
+}
+.nav ul
+{
+    margin-left: 600px;
+    margin-top:50px;
+}
+.nav a
+{
+    text-decoration:none;
+    color:white;
+    transition-duration: 3s;
+}
+
+.nav a:hover
+{
+    background:green;
+    color:skyblue;
+    box-shadow: 4px 4px 3px 10px green;
+    border-radius: 20px;
+   
+}
+.navicon
+{
+    color:white;
+    position: absolute;
+    right: 7%;
+    font-size: 23px;
+}
+.hero1
+{
+    height:400px;
+    width:550px;
+    border:1px solid white;
+    position: absolute;
+    left:10%;
+    top:20%;
+    color:white;
+}
+.hero1h1
+{
+    font-size:70px;
+    z-index: 2;
+    transition: all 3s;
+    font-family: 'Lobster', ;
+}
+.hero1h1:hover
+{
+    color:red;
+    transition-duration:3s;
+}
+.hero1pagh
+{
+    font-size:20px;
+}
+.hero1pagh:hover
+{
+    color:red;
+    transition-duration: 3s;
+}
+.herobtn
+{
+    height: 35px;
+    width: 23%;
+    border:1px solid white;
+    color:white;
+    background: transparent;
+    position: absolute;
+    top:60%;
+    border-radius: 30px;
+}
+.herobtn:hover
+{
+    background-color: turquoise;
+    transition-duration: 3s;
+    transform: skew(20deg);
+}
+.headerimg
+{
+    height:450px;
+    width:280px;
+    position: absolute;
+    right:10%;
+    top: 20%;
+    transition: all 3s;
+}
+.headerimg:hover
+{
+    transform: scale(1.2);
+    transition-duration: 3s;
+}
+#service
+{
+    height:650px;
+    width:99.7%;
+    border:1px solid ;
+    background:gainsboro;
+    position:relative;
+}
+.service1
+{
+    height:400px;
+    width:320px;
+    border:1px solid;
+    position: absolute;
+    top:20%;
+    left:10%;
+    
+}
+.service1:hover
+{
+    background-color:olive;
+}
+.service1h1
+{
+    position: absolute;
+    top:18%;
+}
+.service1h2
+{
+    font-size: 60px;
+    position: absolute;
+    top: 23%;
+}
+.service1pagh
+{
+    position: absolute;
+    top:49%;
+    font-size: 18px;
+}
+.service2
+{
+    height:400px;
+    width:320px;
+    border:1px solid;
+    background-color: white;
+    position: absolute;
+    left:40%;
+    top:20%;
+    text-align: center;
+    box-shadow: 0px 0px 10px 4px gray;
+}
+.service2:hover
+{
+    color: olive;
+}
+.service2 i
+{
+    font-size: 70px;
+    position: absolute;
+    left:35%;
+    top: 5%;
+}
+.service2h1
+{
+    position: absolute;
+    top:25%;
+    width:100%;
+}
+.service2pagh
+{
+    position: absolute;
+    width:100%;
+    top:45%;
+    font-size: 18px;
+}
+.service2footer
+{
+    position: absolute;
+    bottom: 10%;
+    width:100%;
+}
+.service3
+{
+
+    left:70%;
+}
+#proces
+{
+    height:1000px;
+    width:99.7%;
+    border:1px solid black;
+    position: relative;
+  
+
+}
+.procesh1
+{
+    font-size:30px;
+    position: absolute;
+    top:10%;
+    width:100%;
+    text-align:center;
+    transition:all 3s;
+}
+.procesh1:hover
+{
+    color:purple;
+    transition-duration: 3s;
+}
+.procesh2
+{
+    position: absolute;
+    top:17%;
+    width:100%;
+    font-size: 50px;
+    text-align:center;
+    transition:all 3s;
+}
+.procesh2:hover{
+    color:purple;
+    transition-duration: 3s;
+}
+.procespagh
+{
+    font-size:20px;
+    position: absolute;
+    top:26%;
+    width:100%;
+    text-align:center;
+    transition:all 3s;
+}
+.procespagh:hover
+{
+    color:purple;
+    transition-duration: 3s;
+
+}
+.procesimg
+{
+    height:250px;
+    width:380px;
+    border:1px solid black;
+    position: absolute;
+    top: 55%;
+    left:20%;
+    background-image: url('b1.jpg');
+    background-size: 100% 100%;
+    border-radius: 10px;
+    transition: all 3s;
+}
+.procesimg:hover
+{
+    transform: rotate(360deg) translatey(300px);
+    transition-duration: 3s;
+    box-shadow: 0px 0px 10px 6px cornflowerblue;
+}
+.procesparent
+{
+    height:500px;
+    width:480px;
+    /* border:1px solid black; */
+    position: absolute;
+    top: 39%;
+    left:55%;
+    
+}
+.procesbox1
+{
+    height:200px;
+    width:210px;
+    border:1px solid black;
+    background:black;
+    border-radius:10px;
+    transition: all 3s;
+}
+.procesbox1:hover
+{
+    transform: scale(.7)  rotate(40deg) skew(20deg);
+    transition: 3s;
+    background-color: rosybrown;
+}
+.procesbox1h1
+{
+    margin-left:20px;
+    margin-top:30px;
+    color: gray;
+}
+.procesbox1h2
+{
+    margin-left:20px;
+    margin-top:10px;
+    color: white;
+}
+.procesbox1pagh
+{
+    margin-left:20px;
+    margin-top:10px;
+    color: gray;
+}
+.box2
+{
+    position: absolute;
+    left:50%;
+    top:9%;
+    background-color: white;
+}
+.box3
+{
+    position: absolute;
+    top:47%;
+    background-color:white;
+}
+.box4
+{
+    position: absolute ;
+    left:50%;
+    top:55%;
+    background-color: white;
+}
+.procesfooter
+{
+    height:350px;
+    width:99.8%;
+    border:1px solid black;
+    background-image:linear-gradient(rgba(14, 1, 51, 0.6),rgba(14, 1, 51, 0.6)),url('business-bg-1.jpg');
+    background-size:100% 100%;
+    position: relative;
+    text-align: center;
+}
+.procesfooter1
+{
+    height:250px;
+    width:250px;
+    /* border:1px solid red; */
+    position: absolute;
+    left:10%;
+    top:20%;
+    color:white;
+    
+}
+.procesfooter1 i
+{
+    font-size:40px;
+    position: absolute;
+    top:10%;
+    transition:all 3s;
+}   
+.procesfooter1 i:hover
+{
+    color:brown;
+    transition-duration: 3s;
+}
+.procesfooter1h1
+{
+    position: absolute;
+    top:35%;
+    width:100%;
+    font-size:60px;
+    transition:all 3s;
+}
+.procesfooter1h1:hover
+{
+    color:brown;
+    transition-duration: 3s;
+    transform: skew(40deg);
+}
+.procesfooterpagh
+{
+    position: absolute;
+    bottom: 28%;
+    width: 100%;
+    font-size:26px;
+    transition:all 3s;
+}
+.procesfooterpagh:hover
+{
+    color:brown;
+    transition-duration: 3s;
+    transform: skewy(40deg);
+}
+
+.footer2
+{
+    left:30%;
+}
+.footer3
+{
+    left:50%
+}
+.footer4
+{
+    left:70%;
+}
+#package
+{
+    height:1200px;
+    width:99.8%;
+    border:1px solid black;
+    position: relative;
+    text-align:center;
+}
+.package1
+{
+    height:600px;
+    width:280px;
+    border:1px solid black;
+    position: absolute;
+    top:40%;
+    left: 20%;
+    text-align: center;
+    box-shadow: 0px 0px 14px 4px gray;
+    border-radius:4%;
+    transition: all 3s;
+}
+.package1:hover{
+    background-color: aquamarine;
+    transform: scale(1.5);
+    transition-duration: 3s;
+}
+.package1h1
+{
+    position: absolute;
+    top: 10%;
+    width:100%;
+    font-size:30px;
+}
+.sighn
+{
+    position: absolute;
+    top: 25%;
+    font-size:20px;
+    left:25%;
+}
+.package1h2
+{
+    position: absolute;
+    top:16%;
+    left:26%;
+    font-size:80px;
+}
+.package1h3
+{
+    position: absolute;
+    top:30%;
+    width: 100%;
+    font-size: 24px;
+}
+.package1break
+{
+    background: black;
+    width: 35%;
+    position: absolute;
+    top:38%;
+    left: 25%;
+}
+.package1 i
+{
+    position: absolute;
+    top: 1%;
+    left:12%;
+    font-size:25px;
+}
+.iconparent
+{
+    border:1px solid;
+    width:10%;
+    height:120px;
+    position: absolute;
+    top:46%;
+    left:20%;
+}
+.package1pgh1
+{
+    position: absolute;
+    top:47%;
+    left:4%;
+    width:100%;
+}
+.package1pgh2
+{    
+    position: absolute;
+    top:52%;
+    left:2%;
+    width:100%;
+    
+}
+.package1pgh3
+{    
+    position: absolute;
+    top:57%;
+    width:100%;
+    
+}
+.package1pgh4
+{    
+    position: absolute;
+    top:62%;
+    left:8%;
+    width:100%;
+    
+}
+.package1pgh5
+{
+    position: absolute;
+    top:69%;
+    left:20%;
+}
+.package1pgh6
+{
+    position:absolute;
+    top:74%;
+    left:20%;
+}
+.package1pgh7
+{
+    position:absolute;
+    top:79%;
+    left:20%;
+}
+.package1pgh8
+{
+    position:absolute;
+    top:84%;
+    left:20%;
+}
+.packagebtn
+{
+    height: 35px;
+    width:80%;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: 2%;
+    left:9%;
+    border-radius: 20px;
+    border:none;
+    outline-style: none;
+    color:white;
+    transition:all 3s;
+}
+.packagebtn:hover
+{
+    background-color: burlywood;
+    color: cadetblue;
+    transform: skew(30deg);
+    transition-duration: 3s;
+}
+.packagebox2
+{
+    position: absolute;
+    left:41%;
+    height:670px;
+    position: absolute;
+    top:37%;
+}
+.iconparent2
+{
+    border:1px solid;
+    height:200px;
+}
+.box2pgh5
+{
+    right:14%;
+    top:66%;
+}
+.box2pgh6
+{
+    right:-14%;
+    top:70%;   
+}
+.packagebox3
+{
+    position: absolute;
+    left:62%;
+    height:600px;
+    position: absolute;
+    top:40%;
+}
+.iconparent3
+{
+    border:1px solid;
+    height:250px;
+}
+.box3pgh7
+{
+    left:34%;
+    top:77%;
+}
+.box3pgh8
+{
+    left:33%;
+    top:82%;
+}
+.box3pgh6
+{
+    right:-14%;
+    top:72%;   
+}
+.box3pgh5
+{
+    right:14%;
+    top:67%;
+}
+.packagefooter
+{
+    height:400px;
+    width:99.8%;
+    border:1px solid black;
+}
+.client1
+{
+    height:100px;
+    width:30%;
+    /* border:1px solid; */
+    margin-left:10%;
+    margin-top:13%;
+}
+.clientpgh
+{
+    margin-top:10px;
+    font-size: large;
+}
+.client2
+{
+    height: 250px;
+    width:30%;
+    border:1px solid;
+    margin-left:60%;
+    margin-top:-13%;   
+    box-shadow: 0px 0px 10px 4px gray;
+    transform: rotate(-2deg);
+    transition: all 3s;
+}
+.client2:hover
+{
+    background-color: cadetblue;
+    transform: translatex(60px) skew(20deg);
+    border-radius: 10px;
+    transition: 3s;
+
+}
+
+.arrows
+{
+    font-size:50px;
+    margin-left:30px;
+    margin-top: 30px;
+    transition: all 3s;
+}
+.arrows:hover
+{
+    color: brown;
+    transition-duration:3s ;
+}
+.client2pgh
+{
+    
+    font-size:20px;
+    margin-left:55px;
+    margin-top: -40px;
+    transition: all 3s;
+}
+.client2pgh:hover
+{
+    color: brown;
+    transition-duration:3s ;
+}
+.arrows2
+{
+    font-size:50px;
+    margin-left:53%;
+    margin-top: -35px;
+    transition: all 3s;
+}
+.arrows2:hover
+{
+    color: brown;
+    transition-duration:3s ;
+}
+.client2parent
+{
+    height:85px;
+    width:290px;
+    /* border:1px solid; */
+}
+.client2parent img
+{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    margin-left: 45px;
+    margin-top: 10px;
+    transition:all 3s;
+}
+.client2parent img:hover
+{
+    transform:scale(2) ;
+    transition:3s;
+}
+.clientparenth1
+{
+    margin-left:100px;
+    margin-top:-45px;
+    transition: all 3s;
+}
+.clientparenth1:hover
+{
+    color:brown;
+    transition-duration: 3s;
+}
+.clientparentpgh
+{
+    margin-left:100px;
+    transition: all 3s;
+}
+.clientparentpgh:hover{
+    color:brown;
+    transition-duration: 3s;
+}
+.touch
+{
+    height:650px;
+    width:99.8%;
+    border:1px solid;
+}
+.touchparent
+{
+    height:500px;
+    width:500px;
+    /* border: 1px solid; */
+    margin-left:10%;
+    margin-top:10%;
+}
+.touchparenth1
+{
+    font-size:40px;
+    transition: all 3s;
+}
+.touchparenth1:hover
+{
+    color: teal;
+    transform: scale(1.5);
+    transition: 3s;
+}
+.touchparentpgh
+{
+    margin-top:30px;
+    transition: all 3s;
+}
+.touchparentpgh:hover
+{
+    color: teal;
+    transform: scale(1.5);
+    transition: 3s;
+    
+}
+.touchbtn1
+{
+    height:30px;
+    width:43%;
+    border-radius: 20px;
+    border:1px solid;
+    outline-style: none;
+    margin-top: 30px;
+    padding-left:20px;
+    transition: all 3s;
+}
+.touchbtn1:hover
+{
+    background: peru;
+    transform: scale(1.2) skew(20deg) rotate(360deg);
+    transition-duration: 3s;
+}
+.btn2
+{
+    margin-left: 18px;
+}
+.btn3
+{
+    margin-top:20px;
+    width:95%;
+}
+.btn4
+{
+    height:120px;
+    width:95%;
+}
+.btn5
+{
+    height:35px;
+    width:23%;
+    border-radius: 20px;
+    border:1px solid;
+    outline-style: none;
+    background-color: black;
+    color: white;
+    margin-top:30px;
+    transition: all 3s;
+}
+.btn5:hover
+{
+    color:red;
+    background-color: purple;
+    transform: skew(20deg);
+    transition-duration: 3s;
+}
+.touchparent2
+{
+    height:340px;
+    width:200px;
+    /* border:1px solid black; */
+    margin-left:60%;
+    margin-top:-25%;
+}
+.parent2h1
+{
+    font-size:20px;
+    transition: all 3s;
+}
+.parent2h1:hover
+{
+    transform: scale(1.3) skew(15deg);
+    transition: 3s;
+    color: tomato;
+}
+
+.parent2h3
+{
+    margin-top:10px;
+
+}
+.parent2h3:hover
+{
+    color:tomato;
+    transform: scale(1.3) skew(15deg);
+    transition: 3s;
+
+}
+.parent2h2
+{
+    margin-top:40px;
+}
+.parent2h2:hover
+{
+    color:tomato;
+    transform: scale(1.3) skew(15deg);
+    transition: 3s;
+}
+.parent2pgh
+{
+    color:black;
+}
+.parent2pgh:hover
+{
+    color:tomato;
+    transform: scale(1.3) skew(15deg);
+    transition: 3s;
+
+}
+
+.section8
+{
+    height: 600px;
+    width: 100%;
+    background-color: darkblue;
+    font-family: 'Roboto';
+}
+.section8:hover
+{
+    transform: scale(0.9);
+    transition-duration: 2s;
+}
+.box18
+{
+    height: 600px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 10px;
+     float: left;
+}
+.box18 p
+{
+    font-family: 'Roboto';
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: 25px;
+}
+.box18 img
+{
+    height: 90px;
+    width: 300px;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.box19
+{
+    height: 600px;
+    width: 230px;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: left;
+}
+.box20
+{
+    height: 50px;
+    width: 50px;
+    border-radius:50%;
+    border: 1px solid;
+    margin-top:10px;
+    margin-left: 30px;
+    float: left;
+    color:white;
+}
+.box20 i
+{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left:5px;
+}
+.box21
+{
+    height: 40px;
+    width: 230px;
+    margin-top: 30px;
+}
+   
